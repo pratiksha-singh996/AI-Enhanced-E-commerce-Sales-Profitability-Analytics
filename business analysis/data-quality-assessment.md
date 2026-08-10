@@ -89,4 +89,31 @@ Cleaned versions will be stored in:
 
 `data/cleaned/`
 
+## 2.4 State-City Consistency Check
+
+A State-City relationship check was performed using a PivotTable with State and City as row fields.
+
+### Finding
+
+An inconsistent State-City combination was identified:
+
+| State | City | Issue |
+|---|---|---|
+| Madhya Pradesh | Delhi | City does not belong to the specified state |
+
+### Impact
+
+Incorrect State-City mapping can lead to inaccurate:
+
+- Regional sales analysis
+- State-level performance reporting
+- City-level drill-downs
+- Geographical visualizations in Power BI
+
+### Recommended Action
+
+The incorrect State-City mapping should be investigated against the original/source data before making any correction.
+
+The raw dataset will remain unchanged. Any confirmed correction will be applied only to the cleaned dataset.
+
 This ensures that the original source data remains available for reference and validation.
