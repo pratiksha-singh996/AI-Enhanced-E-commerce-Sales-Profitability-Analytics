@@ -116,4 +116,33 @@ The incorrect State-City mapping should be investigated against the original/sou
 
 The raw dataset will remain unchanged. Any confirmed correction will be applied only to the cleaned dataset.
 
+
+
+
+### Cleaning Performed
+
+The `Order Date` column contained a mixture of properly recognized Excel dates and text-formatted dates.
+
+To standardize the date values:
+
+1. The `Order Date` column was selected.
+2. Excel's **Text to Columns** feature was used.
+3. The **Date** format was selected.
+4. The **DMY (Day-Month-Year)** format was applied.
+5. The converted values were validated using the `ISNUMBER()` function.
+
+### Validation
+
+After applying the DMY date format, all 500 records were successfully recognized as valid Excel dates.
+
+**Validation Formula:**
+
+`=ISNUMBER(B2)`
+
+**Result:** All records returned `TRUE`.
+
+### Final Status
+
+The `Order Date` column was successfully standardized to a consistent date format in the cleaned dataset.
+
 This ensures that the original source data remains available for reference and validation.
