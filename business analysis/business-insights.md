@@ -18,3 +18,25 @@
 ### Business Question
 
 Why is Furniture generating significant sales but achieving a substantially lower profit margin compared with Clothing and Electronics?
+
+
+## Sub-Category Performance Analysis
+
+### Key Findings
+
+1. Printers generated the highest sales at ₹58,252 and the highest profit at ₹5,964.
+
+2. Tables is the most significant loss-making sub-category, generating ₹22,614 in sales but a loss of ₹4,011, resulting in a negative profit margin of approximately -17.73%.
+
+3. Electronic Games generated ₹39,168 in sales but recorded a loss of ₹1,236, resulting in a negative profit margin of approximately -3.16%.
+
+4. T-shirt achieved the highest profit margin at approximately 20.32%, despite relatively lower sales of ₹7,382.
+
+5. Saree generated relatively high sales of ₹53,511 and 782 units but generated only ₹352 profit, resulting in a very low profit margin of approximately 0.66%.
+
+### Business Questions
+
+- Why are Tables generating significant losses?
+- Why are Electronic Games loss-making despite generating ₹39,168 in sales?
+- Why does Saree have high sales volume but very low profitability?
+- What factors are contributing to the strong profitability of T-shirt and Accessories?
