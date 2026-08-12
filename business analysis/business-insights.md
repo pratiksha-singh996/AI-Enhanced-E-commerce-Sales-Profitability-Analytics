@@ -40,3 +40,15 @@ Why is Furniture generating significant sales but achieving a substantially lowe
 - Why are Electronic Games loss-making despite generating ₹39,168 in sales?
 - Why does Saree have high sales volume but very low profitability?
 - What factors are contributing to the strong profitability of T-shirt and Accessories?
+
+## Data Integration Validation
+
+The `Order_Details_cleaned` dataset was merged with `List_of_Orders_cleaned` using `Order ID` as the common key.
+
+### Validation
+
+- Order Details records before merge: 1,500
+- Records after merge: 1,500
+- No additional rows were introduced during the merge.
+
+The merged dataset was therefore considered suitable for further sales and regional analysis.
