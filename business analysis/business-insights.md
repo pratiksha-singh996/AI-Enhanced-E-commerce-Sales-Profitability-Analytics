@@ -52,3 +52,24 @@ The `Order_Details_cleaned` dataset was merged with `List_of_Orders_cleaned` usi
 - No additional rows were introduced during the merge.
 
 The merged dataset was therefore considered suitable for further sales and regional analysis.
+
+## Regional Performance Analysis
+
+### Key Findings
+
+1. Madhya Pradesh generated the highest sales among the analyzed states at ₹105,140, with a profit of ₹5,551.
+
+2. Maharashtra generated the highest profit at ₹6,176, with sales of ₹95,348.
+
+3. Uttar Pradesh generated ₹22,359 in sales and ₹3,237 in profit, resulting in a relatively strong profit margin of approximately 14.48%.
+
+4. Tamil Nadu is a significant underperforming region, generating ₹6,087 in sales but recording a loss of ₹2,216.
+
+5. Punjab and Andhra Pradesh also recorded negative profitability of ₹609 and ₹496 respectively.
+
+### Business Questions
+
+- Why is Tamil Nadu generating a significant loss relative to its sales?
+- Which products or sub-categories are responsible for losses in Tamil Nadu?
+- Why does Uttar Pradesh achieve a relatively high profit margin?
+- Which categories contribute most to the performance of Madhya Pradesh and Maharashtra?
