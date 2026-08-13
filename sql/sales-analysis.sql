@@ -42,3 +42,17 @@ FROM OrderDetails
 GROUP BY Category, sub_category
 HAVING SUM(Profit) < 0
 ORDER BY Total_Profit ASC;
+
+-- Query 5: Loss-Making States
+
+SELECT
+    o.State,
+    SUM(d.Amount) AS Total_Sales,
+    SUM(d.Profit) AS Total_Profit,
+    ROUND(SUM(d.Profit) * 100.0 / SUM(d.Amount), 2) AS Profit_Margin
+FROM ListOfOrders o
+JOIN OrderDetails d
+    ON o.order_id = d.order_id
+GROUP BY o.State
+HAVING SUM(d.Profit) < 0
+ORDER BY Total_Profit ASC;
